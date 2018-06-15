@@ -1,0 +1,5 @@
+fields:
+  gus_api_key:
+    label: 'initbiz.gusapi::lang.settings.gus_api_key'
+    commentAbove: 'initbiz.gusapi::lang.settings.gus_api_key_comment'
+    default: 'abcde12345abcde12345'

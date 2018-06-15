@@ -1,0 +1,23 @@
+{
+  "name": "Initbiz/GusApi",
+  "type": "october-plugin",
+  "description": "Gus Api plugin for October CMS",
+  "homepage": "http://init.biz",
+  "keywords": ["october", "octobercms", "api", "gusapi", "php"],
+  "license": "LGPL-2.1",
+  "authors": [
+    {
+      "name": "Tomasz Strojny",
+      "email": "tomasz@init.biz",
+      "role": "Founder"
+  },
+    {
+      "name": "Piotr Rogowski",
+      "email": "piotr@init.biz",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "gusapi/gusapi": "4.*"
+  }
+}
