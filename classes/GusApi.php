@@ -12,9 +12,9 @@ class GusApi extends Api
      * @param string                $env
      * @param BuilderInterface|null $builder
      */
-    public function __construct(string $env, ?BuilderInterface $builder = null)
+    public function __construct(string $env = null, ?BuilderInterface $builder = null)
     {
-        if (!isset($env)) {
+        if ($env === null) {
             $env = env('APP_ENV', 'production');
             //This fancy thing had to be done because GusApi requires 'prod', while OctoberCMS 'production'
             if ($env == 'production') {
@@ -24,7 +24,11 @@ class GusApi extends Api
             }
         }
 
-        $key = Settings::get('gus_api_key', 'abcde12345abcde12345');
+        $key = Settings::get('gus_api_key');
+
+        if ($key === "") {
+            $key = 'abcde12345abcde12345';
+        }
 
         parent::__construct($key, $env, $builder);
 
