@@ -1,8 +1,6 @@
-# Gus APi plugin
+# Gus Api plugin
 ## Introduction
-GusApi plugin is a OctoberCMS plugin allow to get data from GUS.
-
-It is a OctoberCMS's wrapper of [johnzuk/GusApi](https://github.com/johnzuk/GusApi).
+Gus Api plugin is an OctoberCMS plugin allowing to use [johnzuk/GusApi](https://github.com/johnzuk/GusApi) library. The library is based on official REGON SOAP api.
 
 ## Documentation
 If you want to connect to testing version, then install plugin and you are ready to go.
