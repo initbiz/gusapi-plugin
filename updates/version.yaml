@@ -1,4 +1,6 @@
 1.0.1:
     - 'First version of gusapi'
 1.0.2:
-    - 'Fixed constructor.'
+    - 'Fixed constructor'
+1.0.3:
+    - 'Fixed composer.json file'
