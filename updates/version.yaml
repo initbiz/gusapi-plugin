@@ -4,3 +4,5 @@
     - 'Fixed constructor'
 1.0.3:
     - 'Fixed composer.json file'
+1.0.4:
+    - 'Fixed null key'

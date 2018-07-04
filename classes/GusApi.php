@@ -26,7 +26,7 @@ class GusApi extends Api
 
         $key = Settings::get('gus_api_key');
 
-        if ($key === "") {
+        if ($key === "" || $key === null) {
             $key = 'abcde12345abcde12345';
         }
 
