@@ -11,8 +11,8 @@
       "email": "tomasz@init.biz"
     },
     {
-        "email": "piotr@init.biz"
-      "name": "Piotr Rogowski",
+        "name": "Piotr Rogowski"
+        "email": "piotr@init.biz",
     }
   ],
   "require": {
