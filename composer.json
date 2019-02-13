@@ -8,11 +8,11 @@
   "authors": [
     {
       "name": "Tomasz Strojny",
-      "email": "tomasz@init.biz",
-  },
+      "email": "tomasz@init.biz"
+    },
     {
+        "email": "piotr@init.biz"
       "name": "Piotr Rogowski",
-      "email": "piotr@init.biz",
     }
   ],
   "require": {
