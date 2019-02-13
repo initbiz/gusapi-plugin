@@ -1,5 +1,5 @@
 {
-  "name": "Initbiz/GusApi",
+  "name": "initbiz/oc-gusapi-plugin",
   "type": "october-plugin",
   "description": "Gus Api plugin for October CMS",
   "homepage": "http://init.biz",
@@ -9,17 +9,13 @@
     {
       "name": "Tomasz Strojny",
       "email": "tomasz@init.biz",
-      "role": "Founder"
   },
     {
       "name": "Piotr Rogowski",
       "email": "piotr@init.biz",
-      "role": "Developer"
     }
   ],
   "require": {
-      "php": ">=7.0",
-      "composer/installers": "~1.0",
       "gusapi/gusapi": "4.*"
   }
 }
