@@ -1,21 +1,29 @@
 {
-  "name": "initbiz/oc-gusapi-plugin",
-  "type": "october-plugin",
-  "description": "Gus Api plugin for October CMS",
-  "homepage": "http://init.biz",
-  "keywords": ["october", "octobercms", "api", "gusapi", "php", "regon", "bir1"],
-  "license": "LGPL-2.1",
-  "authors": [
-    {
-      "name": "Tomasz Strojny",
-      "email": "tomasz@init.biz"
-    },
-    {
-        "name": "Piotr Rogowski",
-        "email": "piotr@init.biz"
+    "name": "initbiz/gusapi-plugin",
+    "type": "october-plugin",
+    "description": "Gus Api plugin for October CMS",
+    "homepage": "https://init.biz",
+    "keywords": [
+        "october",
+        "octobercms",
+        "api",
+        "gusapi",
+        "php",
+        "regon",
+        "bir1"
+    ],
+    "license": "LGPL-2.1",
+    "authors": [
+        {
+            "name": "Tomasz Strojny",
+            "email": "tomasz@init.biz"
+        },
+        {
+            "name": "Piotr Rogowski",
+            "email": "piotr@init.biz"
+        }
+    ],
+    "require": {
+        "gusapi/gusapi": "4.*"
     }
-  ],
-  "require": {
-      "gusapi/gusapi": "4.*"
-  }
 }
