@@ -6,3 +6,5 @@
     - 'Fixed composer.json file'
 1.0.4:
     - 'Fixed null key'
+2.0.0:
+    - 'Update gusapi/gusapi package'
