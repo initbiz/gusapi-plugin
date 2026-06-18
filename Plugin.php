@@ -36,4 +36,15 @@ class Plugin extends PluginBase
             ]
         ];
     }
+
+    public function registerPermissions()
+    {
+        return [
+            'initbiz.gusapi.access_gusapi' => [
+                'label'       => 'initbiz.gusapi::lang.permissions.label',
+                'tab'         => 'initbiz.gusapi::lang.permissions.tab',
+                'order'       => 100
+            ]
+        ];
+    }
 }
