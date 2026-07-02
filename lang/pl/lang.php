@@ -12,4 +12,8 @@ return [
         'gus_api_key' => 'Klucz API',
         'gus_api_key_comment' => 'Wpisz tutaj swój klucz. Domyślnie jest ustawiony testowy: abcde12345abcde12345',
     ],
+    'permissions' => [
+        'label' => 'Zarządzaj GUS Api',
+        'tab' => 'GUS Api'
+    ],
 ];
