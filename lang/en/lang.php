@@ -12,4 +12,8 @@ return [
         'gus_api_key' => 'API Key',
         'gus_api_key_comment' => 'Set your key here. By default the testing one is set: abcde12345abcde12345',
     ],
+    'permissions' => [
+        'label' => 'Manage GUS Api',
+        'tab' => 'GUS Api'
+    ],
 ];
