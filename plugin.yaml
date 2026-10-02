@@ -1,0 +1,21 @@
+plugin:
+    name: 'initbiz.gusapi::lang.plugin.name'
+    description: 'initbiz.gusapi::lang.plugin.description'
+    author: Initbiz
+    icon: icon-leaf
+
+settings:
+    gusapi:
+        label: initbiz.gusapi::lang.settings.menu_gusapi_label
+        description: initbiz.gusapi::lang.settings.menu_gusapi_description
+        category: initbiz.gusapi::lang.settings.menu_category
+        icon: icon-cubes
+        class: Initbiz\GusApi\Models\Settings
+        order: 100
+        permissions:
+            - initbiz.gusapi.settings_access_gusapi
+
+permissions:
+    initbiz.gusapi.settings_access_gusapi:
+        tab: initbiz.gusapi::lang.permissions.tab
+        label: initbiz.gusapi::lang.permissions.label

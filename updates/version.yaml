@@ -8,3 +8,5 @@
     - 'Fixed null key'
 2.0.0:
     - 'Update gusapi/gusapi package'
+2.1.0:
+    - 'Add permissions'
