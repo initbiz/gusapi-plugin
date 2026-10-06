@@ -1,14 +1,14 @@
 1.0.1:
-    - 'First version of gusapi'
+    - "First version of gusapi"
 1.0.2:
-    - 'Fixed constructor'
+    - "Fixed constructor"
 1.0.3:
-    - 'Fixed composer.json file'
+    - "Fixed composer.json file"
 1.0.4:
-    - 'Fixed null key'
+    - "Fixed null key"
 2.0.0:
-    - 'Update gusapi/gusapi package'
+    - "Update gusapi/gusapi package"
 2.1.0:
-    - 'Add permissions'
+    - "Add permissions"
 2.1.1:
-    - 'Update documentation'
+    - "Update documentation"
