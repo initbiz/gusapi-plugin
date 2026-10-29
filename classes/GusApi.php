@@ -1,5 +1,10 @@
-<?php namespace Initbiz\GusApi\Classes;
+<?php
 
+declare(strict_types=1);
+
+namespace Initbiz\GusApi\Classes;
+
+use Config;
 use GusApi\GusApi as Api;
 use GusApi\Client\BuilderInterface;
 use Initbiz\GusApi\Models\Settings;
@@ -12,12 +17,12 @@ class GusApi extends Api
      * @param string                $env
      * @param BuilderInterface|null $builder
      */
-    public function __construct(string $env = null, ?BuilderInterface $builder = null)
+    public function __construct(?string $env = null, ?BuilderInterface $builder = null)
     {
         if ($env === null) {
-            $env = env('APP_ENV', 'production');
+            $env = Config::get('app.env');
             //This fancy thing had to be done because GusApi requires 'prod', while OctoberCMS 'production'
-            if ($env == 'production') {
+            if ($env === 'production') {
                 $env = 'prod';
             } else {
                 $env = 'dev';

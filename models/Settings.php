@@ -1,4 +1,8 @@
-<?php namespace Initbiz\GusApi\Models;
+<?php
+
+declare(strict_types=1);
+
+namespace Initbiz\GusApi\Models;
 
 use Model;
 
